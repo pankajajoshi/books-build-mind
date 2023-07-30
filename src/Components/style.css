@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --primary-color:#755139FF;
+    --primary-color:rgb(255, 254, 253);
     --secondary-color:#D4B996FF;
 }
 body{
@@ -68,6 +68,7 @@ html{
     padding: 0 0.5rem;
     font-size: 15px;
     font-weight: bold;
+    background-color: rgb(220, 171, 171);
 }
 .search button{
     outline: none;
@@ -136,14 +137,18 @@ html{
     justify-content: center;
 }
 .overlay-inner{
-    background: white;
-    width: 700px;
+    background: rgb(249, 237, 242);
+    width: 900px;
     height: 550px;
     padding: 1.5rem;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
     font-size: 1.3rem;
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgb(248, 249, 249), 0 0 0 2px rgb(56, 29, 29),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .overlay-inner .close{
     position: absolute;
